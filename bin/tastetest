@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+require "rubygems"
+require "tastetest"
+
+include TasteTest
+TasteTest.run(ARGV)
+
+# vim:et:fdm=marker:sts=4:sw=4:ts=4:
